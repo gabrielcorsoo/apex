@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <header>
+            <h1>Página de cadastro</h1>
+        </header>
+
+        <main>
+            <form>
+                <section>
+                    <p>Cadastra-se como empresa ou ONG?</p>
+                    <input type="radio" id="ong" name="option">
+                    <label for="ong">ONG</label>
+    
+                    <input type="radio" id="empresa" name="option">
+                    <label for="empresa">Empresa</label>
+                </section>
+                <br>
+                <section>
+                    <label for="cnpj">CNPJ:</label>
+                    <input type="number" id="cnpj" name="cnpj">
+                </section>
+                <br>
+                <section>
+                    <label for="nomeorg">Nome da organização:</label>
+                    <input type="text" id="nomeorg" name="nomeorg">
+                </section>
+                <br>
+                <section>
+                    <label for="cep">CEP:</label>
+                    <input type="tel" id="cep" name="cep">
+                </section>
+                <br>
+                <section>
+                    <label for="redes">Site ou redes sociais:</label>
+                    <input type="text" name="redes" id="redes">
+                </section>
+                <br>
+                <section>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </section>
+            </form>
+        </main>
+        <br>
+        <footer>
+            <button type="submit">Enviar</button>
+        </footer>
+
+    </body>
+</html>
