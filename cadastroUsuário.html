@@ -4,53 +4,53 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cadastro</title>
+        <link rel="stylesheet" href="cadastroUsuario.css">
     </head>
     <body>
-        <header>
-            <h1>Página de cadastro</h1>
-        </header>
-
         <main>
-            <form>
+
+            <h1>Página de cadastro</h1>
+            
+            <div class="wrapper">
+                
+            <form action="#" method="get">
                 <section>
-                    <p>Cadastra-se como empresa ou ONG?</p>
-                    <input type="radio" id="ong" name="option">
-                    <label for="ong">ONG</label>
-    
-                    <input type="radio" id="empresa" name="option">
+                    <p>Cadastra-se como Empresa ou ONG?</p>
+                    <br>
+                    <input type="radio" id="ong" name="option" required>
+                    <label for="ong">ONG</label> 
+                    &emsp;
+                    <input type="radio" id="empresa" name="option" required>
                     <label for="empresa">Empresa</label>
                 </section>
                 <br>
-                <section>
-                    <label for="cnpj">CNPJ:</label>
-                    <input type="number" id="cnpj" name="cnpj">
+                <section class="entradas">
+                    <input type="number" id="cnpj" name="cnpj" placeholder="CNPJ" required>
                 </section>
                 <br>
                 <section>
-                    <label for="nomeorg">Nome da organização:</label>
-                    <input type="text" id="nomeorg" name="nomeorg">
+                    <input type="text" id="nomeorg" name="nomeorg" placeholder="Nome da organização" required>
                 </section>
                 <br>
                 <section>
-                    <label for="cep">CEP:</label>
-                    <input type="tel" id="cep" name="cep">
+                    <input type="tel" id="cep" name="cep" placeholder="CEP" required>
                 </section>
                 <br>
                 <section>
-                    <label for="redes">Site ou redes sociais:</label>
-                    <input type="text" name="redes" id="redes">
+                    <input type="text" name="redes" id="redes" placeholder="Site/Redes Sociais" required>
                 </section>
                 <br>
                 <section>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </section>
+                <br>
+                <section>
+                    <button type="submit" class="enviar">Enviar</button>
                 </section>
             </form>
+
+            </div>
         </main>
-        <br>
-        <footer>
-            <button type="submit">Enviar</button>
-        </footer>
 
     </body>
 </html>

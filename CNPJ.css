@@ -11,15 +11,20 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(17, 16, 16);
+    background: rgb(155, 3, 3);
+    
 }
 .wrapper
 {
     
     width: 420px;
-    background: rgb(190, 10, 10);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: rgb(255, 255, 255);
     border-radius: 10px;
+    padding: 30px 40px;
 }
 .wrapper h1
 {
@@ -61,7 +66,7 @@ body
 }
 .wrapper .esqueci-a-senha{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 14.5px;
     margin: -15px 0 15px;
 }
@@ -90,7 +95,7 @@ body
 {
     font-size: 14.5;
     text-align: center;
-    margin-top: 20;
+    margin: 20px 0 15px;
 }
 .registre p a{
     color:  rgb(255, 255, 255);
