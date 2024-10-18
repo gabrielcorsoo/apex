@@ -5,36 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de alimentos</title>
-    <link rel="stylesheet" href="CadastroAlimentos.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 
-<body>
-    <div class="navbar">
-        <div class="header-content">
-            <div class="header-image">
-                <img id="logo-image" src="logo.jpg" alt="LOGO">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Página Inicial</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Conta</a></li>
-                </ul>
-            </nav>
-            <div class="menu-icon">
-                <a href="#" id="menu-button">
-                    <img id="menu-image" src="menu-regular-24.png" alt="menu">
-                </a>
-            </div>
-        </div>
-    </div>
+<body><header class="header">
+    <a href="#" class="logo">Logo</a>
 
-    <div id="content" class="content">
-        <p>Aqui você pode adicionar o conteúdo que deseja mostrar.</p>
-        <p>Mais informações sobre como se juntar ou qualquer outro tópico.</p>
-    </div>
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-x' id="close-icon"></i>
+    </label>
 
+    <nav class="navbar">
+        <a href="#" style="--i:2;">Sair</a>
+        <a href="#" style="--i:4;">Inicio</a>
+        <a href="#" style="--i:6;">Contato</a>
+    </nav>
+</header>
 </body>
 
 </html>
